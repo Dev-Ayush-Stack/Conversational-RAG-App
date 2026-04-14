@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "conversational-rag-app"
+version = "0.1.0"
+description = "This is a basic RAG app that can handle larger document as well as answer in context of old conversations"
+authors = ["Dev-Ayush-Stack <dev.ayushpandey.0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+dotenv = "^0.9.9"
+ipykernel = "^7.2.0"
+langchain = "0.2.11"
+langchain-openai = "0.1.20"
+langchain-community = "0.2.10"
+langchain-chroma = "0.1.2"
+sentence-transformers = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
